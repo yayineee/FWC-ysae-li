@@ -7,9 +7,16 @@
             body{background-color: pink;}
             h1{
                 color: white;
+                font-size: 100px;
                 text-align: center;
             }
-            div{
+            .container{
+                justify-content: center;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+            }
+            .copyright{
                 font-family: monospace;
                 text-align: right;
             }
@@ -20,10 +27,22 @@
 <body>
     <h1>Welcome! $$$</h1>
 
-
+    <div class="container">
+    <div class="tshirt1">
+        <img src = "https://image.uniqlo.com/UQ/ST3/th/imagesgoods/484353/item/thgoods_01_484353_3x4.jpg?width=294" alt="tshirt1" width="200" height="300">
+        <br>
+        <a href="https://www.uniqlo.com/th/th/products/E484353-000?colorCode=COL01&sizeCode=CMC120">T-shirt</a>
+    </div>
+    
+    <div class="hood">
+        <img src = "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/486417/item/goods_01_486417_3x4.jpg?width=828"alt="tshirt1" width="200" height="300">
+        <br>
+        <a href="https://www.uniqlo.com/th/en/products/E486417-000?colorCode=COL01&sizeCode=CMA090">Hood</a>
+    </div>
+</div>
 
     <hr>
-    <div>
+    <div class="copyright">
         <p><i>© ysae-li 2026</i></p>
     </div>
 
