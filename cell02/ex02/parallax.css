@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+}
+
+.parallax{  
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.img1{
+  background-image:
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHlrl1hfybpQTuFgewBxvIFnpyh7V44e4ETTJk2oUmlA&s=10");
+    min-height: 100%;
+  }
+.img2{
+  background-image:
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRealLNY1EbDm6MSzSKUlZmEzFVG_p-jhQYXmjDyhaOlguJMRoYPAkTJim&s=10");
+    min-height: 100%;
+  }
+.black-box{
+  position: relative;
+  color:white;  
+  background-color: black;
+  text-align:center;
+}
+.caption{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
