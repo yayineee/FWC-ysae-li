@@ -1,11 +1,11 @@
-function addClass() {
-            document.getElementById("example").classList.add("highlight");
-        }
-        function removeClass() {
-            document.getElementById("example").classList.remove("bold");
-        }
-        function toggleClass() {
-            document.getElementById("example").classList.toggle("highlight");
-        }
+const btn = document.getElementById("btn")
+const Bg = document.body;
+btn.addEventListener("click", changeBg);
 
-document.getElementById("demo").style.color = "----";
+function changeBg() {
+  let color ="#"
+  const random = Math.random().toString(16).slice(2,8);
+  color+= random;
+  Bg.style.backgroundColor=color
+}
+
