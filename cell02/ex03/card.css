@@ -1,0 +1,46 @@
+html{
+  font-family: sans-serif;
+}
+
+main{
+  margin-top: 50px;
+}
+
+h1{
+  text-align:center;
+  color: #130d86;
+
+}
+
+.card {
+  box-shadow: 5px 5px 10px 0 #070091;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.text {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: #070091;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 10, 156);
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
